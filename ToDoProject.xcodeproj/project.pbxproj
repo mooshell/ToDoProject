@@ -11,6 +11,8 @@
 		37238FA12A197E9D00B778FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37238FA02A197E9D00B778FD /* ContentView.swift */; };
 		37238FA32A197E9E00B778FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37238FA22A197E9E00B778FD /* Assets.xcassets */; };
 		37238FA72A197E9E00B778FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37238FA62A197E9E00B778FD /* Preview Assets.xcassets */; };
+		37238FAE2A197F5B00B778FD /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37238FAD2A197F5B00B778FD /* ToDoItem.swift */; };
+		37238FB22A19863A00B778FD /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37238FB12A19863A00B778FD /* NewToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		37238FA22A197E9E00B778FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37238FA42A197E9E00B778FD /* ToDoProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ToDoProject.entitlements; sourceTree = "<group>"; };
 		37238FA62A197E9E00B778FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37238FAD2A197F5B00B778FD /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		37238FB12A19863A00B778FD /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,8 @@
 		37238F922A197E9D00B778FD = {
 			isa = PBXGroup;
 			children = (
+				37238FB12A19863A00B778FD /* NewToDoView.swift */,
+				37238FAD2A197F5B00B778FD /* ToDoItem.swift */,
 				37238F9D2A197E9D00B778FD /* ToDoProject */,
 				37238F9C2A197E9D00B778FD /* Products */,
 			);
@@ -141,6 +147,8 @@
 			files = (
 				37238FA12A197E9D00B778FD /* ContentView.swift in Sources */,
 				37238F9F2A197E9D00B778FD /* ToDoProjectApp.swift in Sources */,
+				37238FAE2A197F5B00B778FD /* ToDoItem.swift in Sources */,
+				37238FB22A19863A00B778FD /* NewToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
